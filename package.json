@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "astro": "^0.0.0-toolbar-improvements-20240420123233"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  }
+}
