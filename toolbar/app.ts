@@ -9,9 +9,9 @@ const motivationalMessages = [
 
 export default defineToolbarApp({
     init(canvas) {
-      const h1= document.createElement('h1');
+      const h1 = document.createElement('h1');
       h1.textContent = motivationalMessages[Math.floor(Math.random() * motivationalMessages.length)];
 
-      canvas.append(h1);
+      canvas.appendChild(h1);
     },
 });
